@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF08E27F29C0FFCF0024C858 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF08E27E29C0FFCF0024C858 /* AppDelegate.swift */; };
+		FF08E28129C0FFCF0024C858 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF08E28029C0FFCF0024C858 /* SceneDelegate.swift */; };
+		FF08E28329C0FFCF0024C858 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF08E28229C0FFCF0024C858 /* ViewController.swift */; };
+		FF08E28629C0FFCF0024C858 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF08E28429C0FFCF0024C858 /* Main.storyboard */; };
+		FF08E28829C0FFD00024C858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF08E28729C0FFD00024C858 /* Assets.xcassets */; };
+		FF08E28B29C0FFD00024C858 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF08E28929C0FFD00024C858 /* LaunchScreen.storyboard */; };
+		FF08E29629C0FFD00024C858 /* MiriamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF08E29529C0FFD00024C858 /* MiriamTests.swift */; };
+		FF08E2A029C0FFD00024C858 /* MiriamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF08E29F29C0FFD00024C858 /* MiriamUITests.swift */; };
+		FF08E2A229C0FFD00024C858 /* MiriamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF08E2A129C0FFD00024C858 /* MiriamUITestsLaunchTests.swift */; };
+		FF08E2AF29C104140024C858 /* GaleriaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF08E2AE29C104130024C858 /* GaleriaViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF08E29229C0FFD00024C858 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF08E27329C0FFCF0024C858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF08E27A29C0FFCF0024C858;
+			remoteInfo = Miriam;
+		};
+		FF08E29C29C0FFD00024C858 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF08E27329C0FFCF0024C858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF08E27A29C0FFCF0024C858;
+			remoteInfo = Miriam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF08E27B29C0FFCF0024C858 /* Miriam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Miriam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF08E27E29C0FFCF0024C858 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF08E28029C0FFCF0024C858 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FF08E28229C0FFCF0024C858 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF08E28529C0FFCF0024C858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF08E28729C0FFD00024C858 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF08E28A29C0FFD00024C858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF08E28C29C0FFD00024C858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF08E29129C0FFD00024C858 /* MiriamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiriamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF08E29529C0FFD00024C858 /* MiriamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiriamTests.swift; sourceTree = "<group>"; };
+		FF08E29B29C0FFD00024C858 /* MiriamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiriamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF08E29F29C0FFD00024C858 /* MiriamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiriamUITests.swift; sourceTree = "<group>"; };
+		FF08E2A129C0FFD00024C858 /* MiriamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiriamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FF08E2AE29C104130024C858 /* GaleriaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaleriaViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF08E27829C0FFCF0024C858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF08E28E29C0FFD00024C858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF08E29829C0FFD00024C858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF08E27229C0FFCF0024C858 = {
+			isa = PBXGroup;
+			children = (
+				FF08E27D29C0FFCF0024C858 /* Miriam */,
+				FF08E29429C0FFD00024C858 /* MiriamTests */,
+				FF08E29E29C0FFD00024C858 /* MiriamUITests */,
+				FF08E27C29C0FFCF0024C858 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF08E27C29C0FFCF0024C858 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF08E27B29C0FFCF0024C858 /* Miriam.app */,
+				FF08E29129C0FFD00024C858 /* MiriamTests.xctest */,
+				FF08E29B29C0FFD00024C858 /* MiriamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF08E27D29C0FFCF0024C858 /* Miriam */ = {
+			isa = PBXGroup;
+			children = (
+				FF08E27E29C0FFCF0024C858 /* AppDelegate.swift */,
+				FF08E28029C0FFCF0024C858 /* SceneDelegate.swift */,
+				FF08E28229C0FFCF0024C858 /* ViewController.swift */,
+				FF08E28429C0FFCF0024C858 /* Main.storyboard */,
+				FF08E2AE29C104130024C858 /* GaleriaViewController.swift */,
+				FF08E28729C0FFD00024C858 /* Assets.xcassets */,
+				FF08E28929C0FFD00024C858 /* LaunchScreen.storyboard */,
+				FF08E28C29C0FFD00024C858 /* Info.plist */,
+			);
+			path = Miriam;
+			sourceTree = "<group>";
+		};
+		FF08E29429C0FFD00024C858 /* MiriamTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF08E29529C0FFD00024C858 /* MiriamTests.swift */,
+			);
+			path = MiriamTests;
+			sourceTree = "<group>";
+		};
+		FF08E29E29C0FFD00024C858 /* MiriamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF08E29F29C0FFD00024C858 /* MiriamUITests.swift */,
+				FF08E2A129C0FFD00024C858 /* MiriamUITestsLaunchTests.swift */,
+			);
+			path = MiriamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF08E27A29C0FFCF0024C858 /* Miriam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF08E2A529C0FFD00024C858 /* Build configuration list for PBXNativeTarget "Miriam" */;
+			buildPhases = (
+				FF08E27729C0FFCF0024C858 /* Sources */,
+				FF08E27829C0FFCF0024C858 /* Frameworks */,
+				FF08E27929C0FFCF0024C858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Miriam;
+			productName = Miriam;
+			productReference = FF08E27B29C0FFCF0024C858 /* Miriam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF08E29029C0FFD00024C858 /* MiriamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF08E2A829C0FFD00024C858 /* Build configuration list for PBXNativeTarget "MiriamTests" */;
+			buildPhases = (
+				FF08E28D29C0FFD00024C858 /* Sources */,
+				FF08E28E29C0FFD00024C858 /* Frameworks */,
+				FF08E28F29C0FFD00024C858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF08E29329C0FFD00024C858 /* PBXTargetDependency */,
+			);
+			name = MiriamTests;
+			productName = MiriamTests;
+			productReference = FF08E29129C0FFD00024C858 /* MiriamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF08E29A29C0FFD00024C858 /* MiriamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF08E2AB29C0FFD00024C858 /* Build configuration list for PBXNativeTarget "MiriamUITests" */;
+			buildPhases = (
+				FF08E29729C0FFD00024C858 /* Sources */,
+				FF08E29829C0FFD00024C858 /* Frameworks */,
+				FF08E29929C0FFD00024C858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF08E29D29C0FFD00024C858 /* PBXTargetDependency */,
+			);
+			name = MiriamUITests;
+			productName = MiriamUITests;
+			productReference = FF08E29B29C0FFD00024C858 /* MiriamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF08E27329C0FFCF0024C858 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FF08E27A29C0FFCF0024C858 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					FF08E29029C0FFD00024C858 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FF08E27A29C0FFCF0024C858;
+					};
+					FF08E29A29C0FFD00024C858 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FF08E27A29C0FFCF0024C858;
+					};
+				};
+			};
+			buildConfigurationList = FF08E27629C0FFCF0024C858 /* Build configuration list for PBXProject "Miriam" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF08E27229C0FFCF0024C858;
+			productRefGroup = FF08E27C29C0FFCF0024C858 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF08E27A29C0FFCF0024C858 /* Miriam */,
+				FF08E29029C0FFD00024C858 /* MiriamTests */,
+				FF08E29A29C0FFD00024C858 /* MiriamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF08E27929C0FFCF0024C858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF08E28B29C0FFD00024C858 /* LaunchScreen.storyboard in Resources */,
+				FF08E28829C0FFD00024C858 /* Assets.xcassets in Resources */,
+				FF08E28629C0FFCF0024C858 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF08E28F29C0FFD00024C858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF08E29929C0FFD00024C858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF08E27729C0FFCF0024C858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF08E28329C0FFCF0024C858 /* ViewController.swift in Sources */,
+				FF08E27F29C0FFCF0024C858 /* AppDelegate.swift in Sources */,
+				FF08E2AF29C104140024C858 /* GaleriaViewController.swift in Sources */,
+				FF08E28129C0FFCF0024C858 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF08E28D29C0FFD00024C858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF08E29629C0FFD00024C858 /* MiriamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF08E29729C0FFD00024C858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF08E2A029C0FFD00024C858 /* MiriamUITests.swift in Sources */,
+				FF08E2A229C0FFD00024C858 /* MiriamUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF08E29329C0FFD00024C858 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF08E27A29C0FFCF0024C858 /* Miriam */;
+			targetProxy = FF08E29229C0FFD00024C858 /* PBXContainerItemProxy */;
+		};
+		FF08E29D29C0FFD00024C858 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF08E27A29C0FFCF0024C858 /* Miriam */;
+			targetProxy = FF08E29C29C0FFD00024C858 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF08E28429C0FFCF0024C858 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF08E28529C0FFCF0024C858 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF08E28929C0FFD00024C858 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF08E28A29C0FFD00024C858 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF08E2A329C0FFD00024C858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF08E2A429C0FFD00024C858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF08E2A629C0FFD00024C858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Miriam/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MAC.Miriam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF08E2A729C0FFD00024C858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Miriam/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MAC.Miriam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF08E2A929C0FFD00024C858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MAC.MiriamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Miriam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Miriam";
+			};
+			name = Debug;
+		};
+		FF08E2AA29C0FFD00024C858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MAC.MiriamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Miriam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Miriam";
+			};
+			name = Release;
+		};
+		FF08E2AC29C0FFD00024C858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MAC.MiriamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Miriam;
+			};
+			name = Debug;
+		};
+		FF08E2AD29C0FFD00024C858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MAC.MiriamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Miriam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF08E27629C0FFCF0024C858 /* Build configuration list for PBXProject "Miriam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF08E2A329C0FFD00024C858 /* Debug */,
+				FF08E2A429C0FFD00024C858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF08E2A529C0FFD00024C858 /* Build configuration list for PBXNativeTarget "Miriam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF08E2A629C0FFD00024C858 /* Debug */,
+				FF08E2A729C0FFD00024C858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF08E2A829C0FFD00024C858 /* Build configuration list for PBXNativeTarget "MiriamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF08E2A929C0FFD00024C858 /* Debug */,
+				FF08E2AA29C0FFD00024C858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF08E2AB29C0FFD00024C858 /* Build configuration list for PBXNativeTarget "MiriamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF08E2AC29C0FFD00024C858 /* Debug */,
+				FF08E2AD29C0FFD00024C858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF08E27329C0FFCF0024C858 /* Project object */;
+}
